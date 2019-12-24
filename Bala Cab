@@ -44,8 +44,8 @@ while i!=0:
         print('Total cost of travel:',p2)
 
       if car[c]=='SUV':
-        t3={'1':'Brezza','2':'Scorpio','3':'XUV 500'}
-        type3=input("Enter your choice:1->Brezza 2->Scorpio 3->XUV 500: ")
+        t3={'1':'TUV 300','2':'Scorpio','3':'XUV 500'}
+        type3=input("Enter your choice:1->TUV 300 2->Scorpio 3->XUV 500: ")
         print("**************************")
         print("")
         print('Your Car is:',t3[type3])
