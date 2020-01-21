@@ -21,7 +21,7 @@ while(i<10):
 j="".join(temp)
 #print(j)
 
-if j==word:
+if l==0:
   print("You Won!!")
 else:
   print("You Lost. Game Over!")
