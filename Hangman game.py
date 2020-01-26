@@ -3,7 +3,12 @@ g=('god','india','goa','books','king')
 word = r.choice(g)
 #print(word)
 temp=[]
+
+print("******Let's Play Hangman******")
 l=len(word)
+for i in range(l):
+  print("_",end=" ")
+print("\n\nGuess The Word\n")
 i=0
 while(i<10):
   guess=input("Enter any letter:")
@@ -22,6 +27,6 @@ j="".join(temp)
 #print(j)
 
 if l==0:
-  print("You Won!!")
+  print("\nYou Won!!")
 else:
-  print("You Lost. Game Over!")
+  print("\nYou Lost. Game Over!")
