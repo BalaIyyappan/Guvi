@@ -2,7 +2,7 @@ x = 0
 score = x
 print("Welcome To Quiz Game!!\n")
 
-question=["What is 1 + 1","Who is the president of the United States?","Australian Currency is Australian Dollar?","Who was the last year winner of IPL?",
+question=["How many wings does a swan has?","Who is the president of the United States?","Australian Currency is Australian Dollar?","Who was the last year winner of IPL?",
 "True or False... The current Prime Minister of India is Narendra Modi?"]
 
 print(question[0])
