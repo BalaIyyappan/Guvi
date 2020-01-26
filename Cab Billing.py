@@ -13,15 +13,16 @@ while i!=0:
       dest=int(input("Enter your destination in KMS: "))
       total=dest-src
       car={'1':'Micro','2':'Sedan','3':'SUV','4':'Premium'}
-      c=input("Select your car:1->Mini 2->Sedan 3->SUV 4->Premium: ")
+      c=input("Select your car:1->Micro 2->Sedan 3->SUV 4->Premium: ")
       
       
 
       if car[c]=='Micro':
-        t1={'1':'i10','2':'tata indica','3':'swift'}
+        t1={'1':'i10','2':'Tata indica','3':'Swift'}
         type1=input("Enter your choice:1->i10 2->Tata Indica 3->Swift: ")
         print("**************************")
         print("")
+        print("        $ Bill Details $       ")
         print('Your Car is:',t1[type1])
         price1=10
         p1=(((total-5))*price1)
@@ -35,6 +36,7 @@ while i!=0:
         type2=input("Enter your choice:1->Ciaz 2->Verna 3->Swift Desire: ")
         print("**************************")
         print("")
+        print("        $ Bill Details $       ")
         print('Your Car is:',t2[type2])
         price2=15
         p2=(((total-5))*price2)
@@ -48,6 +50,7 @@ while i!=0:
         type3=input("Enter your choice:1->TUV 300 2->Scorpio 3->XUV 500: ")
         print("**************************")
         print("")
+        print("        $ Bill Details $       ")
         print('Your Car is:',t3[type3])
         price3=20
         p3=(((total-5))*price3)
@@ -61,6 +64,7 @@ while i!=0:
         type4=input("Enter your choice:1->Bmw 320d 2->Audi A4 3->Benz C class: ")
         print("**************************")
         print("")
+        print("        $ Bill Details $       ")
         print('Your Car is:',t4[type4])
         price4=25
         p4=(((total-5))*price4)
